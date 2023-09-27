@@ -1,0 +1,59 @@
+.container {
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container h1 b {
+    clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+    background-color: orange;
+    padding: 5px 20px;
+    display: inline-block;
+    width: 130px;
+}
+
+.container .box_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+
+}
+
+.container .box_container .box {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.container .box_container .box img {
+    height: 100px;
+}
+
+.container .box_container .box p {
+    line-height: 1.8;
+    color: black;
+}
+
+.container .box_container .box h2 {
+    padding: 10px;
+}
+
+.container .box_container .box button {
+
+    padding: 7px 15px;
+    background: transparent;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 14px;
+    transition: transform 0.2s ease;
+
+}
+.container .box_container .box button:hover {
+    transform: scale(0.9);
+}

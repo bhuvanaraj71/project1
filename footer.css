@@ -1,0 +1,7 @@
+.container6 {
+    /* min-height: 45vh;*/
+    justify-content: space-between; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+}

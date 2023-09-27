@@ -1,0 +1,56 @@
+.container5 h1 {
+    text-align: center;
+}
+
+.container5 h1 b {
+    clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+    background-color: orange;
+    padding: 5px 20px;
+    display: inline-block;
+    width: 130px;
+}
+
+.container5 .box_container5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5 .box_container5 .box5 {
+    height: 390px;
+    width: 380px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    padding bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.container5 .box_container5 .box5 img {
+    height: 200px;
+    width: 100%;
+}
+
+.container5 .box_container5 .box5 p {
+    display: inline-block;
+    justify-content: right;
+}
+
+.container5 .box_container5 .box5 button {
+
+    padding: 7px 15px;
+    background: transparent;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 14px;
+    transition: transform 0.2s ease;
+}
+.container5 .box_container5 .box5 button:hover {
+    transform: scale(0.9);
+}
